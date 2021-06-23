@@ -60,7 +60,7 @@ body {
     right: 0;
     width: 800px;
     height: 740px;
-    background-image: url(/img/Rectangle5.jpg);
+    background-image: url(/img/1st-page/Rectangle5.jpg);
     z-index: -3; }
   .header__rectangle-4 {
     position: absolute;
@@ -148,7 +148,7 @@ body {
     .services__row-item1 {
       height: 592px;
       width: 433px;
-      background: url(/img/pic.jpg);
+      background: url(/img/1st-page/pic.jpg);
       background-repeat: no-repeat; }
       .services__row-item1 h2 {
         margin-top: 414px;
@@ -189,7 +189,7 @@ body {
     .services__row-item2 {
       height: 592px;
       width: 433px;
-      background: url(/img/pc.jpg);
+      background: url(/img/1st-page/pc.jpg);
       background-repeat: no-repeat; }
       .services__row-item2 h2 {
         margin-top: 414px;
@@ -230,7 +230,7 @@ body {
     .services__row-item3 {
       height: 592px;
       width: 433px;
-      background: url(/img/man.jpg);
+      background: url(/img/1st-page/man.jpg);
       background-repeat: no-repeat; }
       .services__row-item3 h2 {
         margin-top: 414px;
@@ -393,7 +393,7 @@ body {
 .afs {
   width: 1443;
   height: 610px;
-  background: url(/img/afs.jpg);
+  background: url(/img/1st-page/afs.jpg);
   background-repeat: no-repeat; }
   .afs__heading {
     text-align: center;
