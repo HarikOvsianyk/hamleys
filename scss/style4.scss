@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+.header {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        &-logo {
+            width: 87px;
+            height: 47px;
+            padding: 30px 0 0 70px;
+        }
+        &-list {
+/*             width: 800px;
+            height: 162px; */
+            padding-left: 287px;
+            list-style: none;
+            font-size: 16px;
+            font-weight: 300;
+            display: flex;
+            justify-content: end;
+            background-size: 800.4px 162.88px;
+
+        }
+        &-link {
+            padding-top: 39px;
+            padding-right: 31px;
+        }
+        &-link:last-of-type {
+            padding-right: 75px;
+        }
+        &-link > a {
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    &__rectangle-1 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 800px;
+        border-top: 162px solid #BE2C34;       
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 100% 100%, 1.5% 21%);
+        z-index: -1;
+    }
+    &__rectangle-2 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 800px;
+        border-top: 172px solid #BEA363;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 100% 100%, 1.5% 20%);
+        z-index: -2;
+    }
+    &__heading {
+        margin-left: 70px;
+        margin-top: 160px;
+        h1 {
+            width: 511px;
+            height: 60px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 60px;
+            color: #000000;
+        }
+    }
+}
+.block {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 420px;
+    &__registration {
+        margin-left: 70px;
+        margin-top: 100px;
+        input {
+            width: 444px;
+            height: 72px;
+            margin-bottom: 55px;
+            border: 1px solid #BEA363;
+        }
+        #name {
+            position: relative;
+        }
+        #email {
+            position: relative;
+        }
+        #tel {
+            position: relative;
+        }
+        .first_label {
+            position: absolute;
+            left: 190px;
+            top: 350px;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 124%;
+            color: #000000;
+        }
+        .second_label {
+            position: absolute;
+            left: 190px;
+            top: 480px;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 124%;
+            color: #000000;
+        }
+        .third_label {
+            position: absolute;
+            left: 190px;
+            top: 610px;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 124%;
+            color: #000000;
+        }
+    }
+    .registration-form_btn {
+        margin-top: -20px;
+        width: 191px;
+        height: 53px;
+        background: #BE2C34;;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 33px;
+        color: #FFFFFF;
+        text-align: center;
+        box-shadow: none;
+        border: none;
+    }
+    .line {
+        margin-top: 50px;
+        width: 3px;
+        height: 500px;
+        background: #BEA363;
+    }
+    &__activation {
+        margin-right: 70px;
+        margin-top: 100px;
+        .activation-form_input {
+            input {
+                position: relative;
+                width: 444px;
+                height: 72px;
+                margin-bottom: 55px;
+                border: 1px solid #BEA363;
+            }
+            .label {
+                position: absolute;
+                right: 720px;
+                top: 350px;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 15px;
+                line-height: 124%;
+                color: #000000;
+            }
+        }
+    }
+    .activation-descr {
+        margin-top: 36.33px;
+        margin-left: 20px;
+        width: 618px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 29px;
+        color: #000000;
+        ol {
+            margin-bottom: 20px;
+        }
+    }
+}
+.footer {
+    width: auto;
+    height: 153.84px;
+    background: #363636;
+    &__links {
+        display: flex;
+        justify-content: space-between;
+        &-item1 {
+            margin-top: 19.76px;
+            margin-left: 70px;
+        }
+        &-item2 {
+            margin-top: 38px;
+            margin-right: 71.26px;
+        }
+    }
+    hr {
+        margin-top: 22.94px;
+        margin-left: 20.63px;
+        margin-right: 20.63px;
+        width: 1400px;
+        border: 1px solid #FFFFFF;
+    }
+    &__descr {
+        display: flex;
+        justify-content: space-between;
+        &-policy {
+            margin-top: 18.88px;
+            margin-left: 70px;
+            a {
+                text-decoration: none;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 124%;
+                text-align: right;
+                color: #FFFFFF;
+            }
+        }
+        &-rights {
+            margin-top: 21.88px;
+            a {
+                text-decoration: none;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 124%;
+                text-align: right;
+                color: #FFFFFF;
+            }
+        }
+        &-design {
+            margin-top: 16.88px;
+            margin-right: 71.26px;
+            a {
+                text-decoration: none;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 124%;
+                text-align: right;
+                color: #FFFFFF;
+            }
+        }
+    }
+}

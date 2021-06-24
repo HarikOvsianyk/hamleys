@@ -5,7 +5,7 @@
   font-family: 'Poppins', sans-serif; }
 
 body {
-  width: 1443px;
+  width: auto;
   height: auto;
   margin: 0 auto; }
 
@@ -66,8 +66,14 @@ body {
       line-height: 60px;
       color: #000000; }
 
+.main {
+  display: flex;
+  justify-content: center; }
+
 .chess {
-  margin: 118.24px 70px 118px 70px; }
+  margin-top: 118.24px;
+  margin-bottom: 118px;
+  text-align: center; }
   .chess__item {
     display: flex; }
     .chess__item-img {
@@ -188,7 +194,7 @@ body {
           color: #FFFFFF; }
 
 .footer {
-  width: 1440px;
+  width: auto;
   height: 153.84px;
   background: #363636; }
   .footer__links {
@@ -204,7 +210,7 @@ body {
     margin-top: 22.94px;
     margin-left: 20.63px;
     margin-right: 20.63px;
-    width: 1400;
+    width: 1400px;
     border: 1px solid #FFFFFF; }
   .footer__descr {
     display: flex;
