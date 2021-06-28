@@ -4,101 +4,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header">
-        <div class="header__menu">
-            <div class="header__menu-logo">
-                <a href="#"><img src="img/home/logo/logo.png" alt="logo"></a>
+        <div class="container">
+            <div class="hamburger">
+                <span></span>
+                <span class="long"></span>
+                <span></span>
             </div>
-            <nav class="header__menu-block">
-                <ul class="header__menu-list">
-                    <li class="header__menu-link"><a href="#home">Home</a></li>
-                    <li class="header__menu-link"><a href="#workingCapital">Working Capital</a></li>
-                    <li class="header__menu-link"><a href="#crossflow">Crossflow</a></li>
-                    <li class="header__menu-link"><a href="#registration">Registration</a></li>
-                </ul>
-            </nav>
-            <div class="header__rectangle-1"></div>
-            <div class="header__rectangle-2"></div>
-        </div>
-        <div class="header__heading">
-            <h1>Registration</h1>
+            <div class="header__menu">
+                <div class="header__menu-logo">
+                    <a href="index.html"><img src="img/home/logo/logo.png" alt="logo"></a>
+                </div>
+                <nav class="header__menu-block">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-link"><a href="index.html">Home</a></li>
+                        <li class="header__menu-link"><a href="workingCapital.html">Working Capital</a></li>
+                        <li class="header__menu-link"><a href="crossflow.html">Crossflow</a></li>
+                        <li class="header__menu-link"><a href="registration.html">Registration</a></li>
+                    </ul>
+                </nav>
+                <div class="header__rectangle-1"></div>
+                <div class="header__rectangle-2"></div>
+            </div>
+
         </div>
     </header>
+    <div class="menu">
+        <div class="menu__block">
+            <div class="menu__logo">
+                <a href="index.html"><img src="img/home/logo/logo_white.png" alt="logo"></a>
+            </div>
+            <div class="menu__close">
+                <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.1568 14.5231L28.4489 3.23075C29.1837 2.49623 29.1837 1.30861 28.4489 0.574085C27.7144 -0.160437 26.5267 -0.160437 25.7922 0.574085L14.4998 11.8665L3.20781 0.574085C2.47295 -0.160437 1.28567 -0.160437 0.551149 0.574085C-0.183716 1.30861 -0.183716 2.49623 0.551149 3.23075L11.8432 14.5231L0.551149 25.8155C-0.183716 26.55 -0.183716 27.7376 0.551149 28.4721C0.917206 28.8385 1.39852 29.0226 1.87948 29.0226C2.36045 29.0226 2.84141 28.8385 3.20781 28.4721L14.4998 17.1798L25.7922 28.4721C26.1586 28.8385 26.6396 29.0226 27.1205 29.0226C27.6015 29.0226 28.0825 28.8385 28.4489 28.4721C29.1837 27.7376 29.1837 26.55 28.4489 25.8155L17.1568 14.5231Z" fill="white"/>
+                    </svg>
+            </div>
+            <nav>
+                <ul class="menu__list">
+                    <li class="menu__link"><a href="index.html">Home</a></li>
+                    <li class="menu__link"><a href="workingCapital.html">Working Capital</a></li>
+                    <li class="menu__link"><a href="crossflow.html">Crossflow</a></li>
+                    <li class="menu__link"><a href="registration.html">Registration</a></li>
+                </ul>
+            </nav>
+
+            <div class="menu__social">
+                <a href="#" class="sidepanel__link" target="_blank"><img src="img/home/logo/logos_linkedin.png" alt=""></a>
+            </div>
+        </div>
+        <div class="menu__overlay"></div>
+    </div>
     <main>
         <section class="registration">
-            <div class="block">
-                <div class="block__registration">
-                    <form action="#" class="registration-form">
-                        <div class="registration-form_input">
-                            <input required name="name" id="name" type="text">
-                            <label for="text" class="first_label">Name</label>
-                        </div>
-                        <div class="registration-form_input">
-                            <input required name="email" id="email" type="email">
-                            <label for="email" class="second_label">Email</label>
-                        </div>
-                        <div class="registration-form_input">
-                            <input required name="tel" id="tel" type="tel">
-                            <label for="tel" class="third_label">Phone number</label>
-                        </div>
-                        <button class="registration-form_btn">Lorem</button>
-                    </form>
+            <div class="container">
+                <div class="block__heading_rt">
+                    <h1>Registration</h1>
                 </div>
-                <div class="line"></div>
-                <div class="block__activation">
-                    <form action="#" class="activation-form">
-                        <div class="activation-form_input">
-                            <input required name="code" id="code" type="number">
-                            <label for="code" class="label">Activation code</label>
+                <div class="block">
+                    <div class="block__registration">
+                        <form action="#" class="registration-form">
+                            <div class="registration-form_input">
+                                <input required name="name" id="name" type="text">
+                                <label for="text" class="first_label">Name</label>
+                            </div>
+                            <div class="registration-form_input">
+                                <input required name="email" id="email" type="email">
+                                <label for="email" class="second_label">Email</label>
+                            </div>
+                            <div class="registration-form_input">
+                                <input required name="tel" id="tel" type="tel">
+                                <label for="tel" class="third_label">Phone number</label>
+                            </div>
+                            <button class="registration-form_btn">Lorem</button>
+                        </form>
+                    </div>
+                    <div class="line"></div>
+                    <div class="block__activation">
+                        <form action="#" class="activation-form">
+                            <div class="activation-form_input">
+                                <input required name="code" id="code" type="number">
+                                <label for="code" class="label">Activation code</label>
+                            </div>
+                            <button class="registration-form_btn">Complete</button>
+                        </form>
+                        <div class="activation-descr">
+                            <p>Please note the MINIMUM SYSTEM REQUIREMENTS:</p>
+                            <ol>
+                                <li>An Internet connection</li>
+                                <li>Google Chrome v67+, or Microsoft Edge v42+</li>
+                                <li>An email address</li>
+                            </ol> 
+                            <ul>
+                                <li>You will need the following documents to hand to complete the 
+                                    process including:</li>
+                                <li>Your bank details – to enable payments to your account</li>
+                                <li>Company registration details and registration number</li>
+                                <li>Registered company address</li>
+                                <li>VAT number (if applicable)</li>
+                                <li>Contact details of the primary contact between Crossflow and your business”</li>
+                            </ul>           
                         </div>
-                        <button class="registration-form_btn">Complete</button>
-                    </form>
-                    <div class="activation-descr">
-                        <p>Please note the MINIMUM SYSTEM REQUIREMENTS:</p>
-                        <ol>
-                            <li>An Internet connection</li>
-                            <li>Google Chrome v67+, or Microsoft Edge v42+</li>
-                            <li>An email address</li>
-                        </ol> 
-                        <ul>
-                            <li>You will need the following documents to hand to complete the 
-                                process including:</li>
-                            <li>Your bank details – to enable payments to your account</li>
-                            <li>Company registration details and registration number</li>
-                            <li>Registered company address</li>
-                            <li>VAT number (if applicable)</li>
-                            <li>Contact details of the primary contact between Crossflow and your business”</li>
-                        </ul>           
                     </div>
                 </div>
             </div>
         </section>
     </main>
     <footer class="footer">
-        <div class="footer__links">
-            <div class="footer__links-item1">
-                <a href="#"><img src="img/home/logo/logo_white.png" alt="logo_white"></a>
+        <div class="container">
+            <div class="footer__links">
+                <div class="footer__links-item1">
+                    <a href="#" target="_blank"><img src="img/home/logo/logo_white.png" alt="logo_white"></a>
+                </div>
+                <div class="footer__links-item2">
+                    <a href="#" target="_blank"><img src="img/home/logo/logos_linkedin.png" alt="linked"></a>
+                </div>
             </div>
-            <div class="footer__links-item2">
-                <a href="#"><img src="img/home/logo/logos_linkedin.png" alt="linked"></a>
-            </div>
-        </div>
-        <hr>
-        <div class="footer__descr">
-            <div class="footer__descr-policy">
-                <a href="#">Privacy Policy</a>
-            </div>
-            <div class="footer__descr-rights">
-                <a href="#">&#169; 2020 Startup. All Rights Reserved By Doodlias</a>
-            </div>
-            <div class="footer__descr-design">
-                <a href="#">Website by Krock DS</a>
+            <hr>
+            <div class="footer__descr">
+                <div class="footer__descr-policy">
+                    <a href="#" target="_blank">Privacy Policy</a>
+                </div>
+                <div class="footer__descr-rights">
+                    <a href="#" target="_blank">&#169; 2020 Startup. All Rights Reserved By Doodlias</a>
+                </div>
+                <div class="footer__descr-design">
+                    <a href="#" target="_blank">Website by Krock DS</a>
+                </div>
             </div>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
